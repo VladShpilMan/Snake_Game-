@@ -118,7 +118,7 @@ void Logic() {
 	if (x > width || x < 0 || y > height || y < 0)
 		gameOver = true;
 
-	/*if (x >= width - 1)    // boundaries
+	/*if (x >= width - 1)    // you can go beyond the boundaries
 		x = 0;
 	else if (x < 0)
 		x = width - 2;
